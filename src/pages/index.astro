@@ -7,16 +7,17 @@ import Greet from "../components/Greet.svelte";
 	<main>
 		<div class="row">
 			<a href="https://tauri.app" target="_blank">
-				<img
-					src="public/tauri.svg"
-					class="logo tauri"
-					alt="Tauri logo"
-				/>
+				<img src="/tauri.svg" class="logo tauri" alt="Tauri logo" />
 			</a>
 			<a href="https://astro.build" ,target="_blank">
 				<img
-					src="public/astro.svg"
-					class="logo astro"
+					src="/astro-dark.svg"
+					class="logo astro dark-mode-only"
+					alt="Astro logo"
+				/>
+				<img
+					src="/astro-light.svg"
+					class="logo astro light-mode-only"
 					alt="Astro logo"
 				/>
 			</a>
@@ -41,8 +42,8 @@ import Greet from "../components/Greet.svelte";
 			</a>
 		</p>
 		<div class="row">
-			<Greet client:visible/>
-		</div>		
+			<Greet client:visible />
+		</div>
 	</main>
 </Layout>
 
@@ -66,5 +67,17 @@ import Greet from "../components/Greet.svelte";
 
 	#greet-input {
 		margin-right: 5px;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.logo.light-mode-only {
+			display: none;
+		}
+	}
+
+	@media (prefers-color-scheme: light) {
+		.logo.dark-mode-only {
+			display: none;
+		}
 	}
 </style>
