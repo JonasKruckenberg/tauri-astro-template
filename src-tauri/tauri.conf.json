@@ -49,7 +49,8 @@
     "security": {
       "freezePrototype": true,
       "csp": {
-        "default-src": "'none'"
+        "default-src": "'none'",
+        "img-src": "'self'"
       }
     },
     "updater": {
