@@ -1,0 +1,21 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^1.0.2",
+    "@tauri-apps/api": "^1.2.0",
+    "astro": "^1.6.14",
+    "svelte": "^3.54.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0"
+  }
+}
