@@ -2391,9 +2391,9 @@ dependencies = [
 
 [[package]]
 name = "tauri"
-version = "2.0.0-alpha.0"
+version = "2.0.0-alpha.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2aca5af55245e28764432d5f5861e8372633a5a7a9a7244bcb6de213c5b3d5c3"
+checksum = "c8dca2d7a5853ab98d1453bf74078308f175634934e2fd1f427433c56c179da5"
 dependencies = [
  "android_logger",
  "anyhow",
