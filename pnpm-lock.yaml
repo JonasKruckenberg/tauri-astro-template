@@ -5,15 +5,15 @@ specifiers:
   '@tauri-apps/api': ^1.2.0
   astro: ^2.0.16
   svelte: ^3.55.1
-  typescript: ^4.9.5
+  typescript: ^5.0.0
   vite: ^4.1.4
 
 dependencies:
-  '@astrojs/svelte': 2.0.2_32roonamxe3uyblpd3nwgrwfbq
+  '@astrojs/svelte': 2.0.2_znetjdbgtlb2embn6zgcxd2vai
   '@tauri-apps/api': 1.2.0
   astro: 2.0.16
   svelte: 3.55.1
-  typescript: 4.9.5
+  typescript: 5.0.2
   vite: 4.1.4
 
 packages:
@@ -82,7 +82,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/svelte/2.0.2_32roonamxe3uyblpd3nwgrwfbq:
+  /@astrojs/svelte/2.0.2_znetjdbgtlb2embn6zgcxd2vai:
     resolution: {integrity: sha512-EkJT7Roft6v9CkI3/Hga8XQbmmI6kKcpOAx6E0gfepuJuqI68xLqnEl3TSJ9uH3dwJt8ThscB1TGxsc8B4JUdg==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -92,7 +92,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.0.3_svelte@3.55.1+vite@4.1.4
       astro: 2.0.16
       svelte: 3.55.1
-      svelte2tsx: 0.5.23_4x7phaipmicbaooxtnresslofa
+      svelte2tsx: 0.5.23_l6gh7invo235md22ird7wlz7xq
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -861,7 +861,7 @@ packages:
       strip-ansi: 7.0.1
       supports-esm: 1.0.0
       tsconfig-resolver: 3.0.1
-      typescript: 4.9.5
+      typescript: 5.0.2
       unist-util-visit: 4.1.2
       vfile: 5.3.7
       vite: 4.1.4
@@ -2684,7 +2684,7 @@ packages:
     engines: {node: '>= 8'}
     dev: false
 
-  /svelte2tsx/0.5.23_4x7phaipmicbaooxtnresslofa:
+  /svelte2tsx/0.5.23_l6gh7invo235md22ird7wlz7xq:
     resolution: {integrity: sha512-jYFnugTQRFmUpvLXPQrKzVYcW5ErT+0QCxg027Zx9BuvYefMZFuoBSTDYe7viPEFGrPPiLgT2m7f5n9khE7f7Q==}
     peerDependencies:
       svelte: ^3.24
@@ -2693,7 +2693,7 @@ packages:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
       svelte: 3.55.1
-      typescript: 4.9.5
+      typescript: 5.0.2
     dev: false
 
   /synckit/0.8.5:
@@ -2756,9 +2756,9 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: false
 

@@ -15,7 +15,7 @@
     "@tauri-apps/api": "^1.2.0",
     "astro": "^2.0.16",
     "svelte": "^3.55.1",
-    "typescript": "^4.9.5",
+    "typescript": "^5.0.0",
     "vite": "^4.1.4"
   }
 }
