@@ -11,7 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/svelte": "^2.0.2",
+    "@astrojs/svelte": "^3.0.0",
     "@tauri-apps/api": "^1.2.0",
     "astro": "^2.0.16",
     "svelte": "^3.55.1",
