@@ -3014,9 +3014,9 @@ dependencies = [
 
 [[package]]
 name = "tauri"
-version = "2.0.0-alpha.13"
+version = "2.0.0-alpha.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "679480b724273657456c01532e1317cac5e04dbe0acc9ad5acae869d3cd05e13"
+checksum = "46acc0b6d20fe3a7c27e6036d9ef52d2c28afd1b6178ffc2dd4881f9994fecd7"
 dependencies = [
  "anyhow",
  "bytes",
@@ -3143,9 +3143,9 @@ dependencies = [
 
 [[package]]
 name = "tauri-runtime-wry"
-version = "1.0.0-alpha.1"
+version = "1.0.0-alpha.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "79f53914c8ab391c5cd83f0bc269f8dfa6d48cb826d0584b57d396862360dc38"
+checksum = "fce46e920b62699045e02db3006017d24324119189dfab2b12261aeebf98f4be"
 dependencies = [
  "cocoa 0.24.1",
  "gtk",
@@ -4081,9 +4081,9 @@ dependencies = [
 
 [[package]]
 name = "wry"
-version = "0.32.0"
+version = "0.33.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41fc00d1511c9ff5b600a6c6bde254eb39b9fcc5c0369b71a8efd5ff807bf937"
+checksum = "bf906b43b8042615c85a978dceb4d4b72214d27b850b54abc3edeb7c5a67abab"
 dependencies = [
  "base64 0.21.0",
  "block",
