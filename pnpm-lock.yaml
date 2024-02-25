@@ -9,11 +9,11 @@ specifiers:
   vite: ^4.1.4
 
 dependencies:
-  '@astrojs/svelte': 2.0.2_5eluvsxhmfbllciamjflwzzpyu
+  '@astrojs/svelte': 2.0.2_qeizuthmgrn6zbbhlum472e7re
   '@tauri-apps/api': 1.2.0
   astro: 3.0.0
   svelte: 3.55.1
-  typescript: 5.0.2
+  typescript: 5.3.3
   vite: 4.1.4
 
 packages:
@@ -64,7 +64,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/svelte/2.0.2_5eluvsxhmfbllciamjflwzzpyu:
+  /@astrojs/svelte/2.0.2_qeizuthmgrn6zbbhlum472e7re:
     resolution: {integrity: sha512-EkJT7Roft6v9CkI3/Hga8XQbmmI6kKcpOAx6E0gfepuJuqI68xLqnEl3TSJ9uH3dwJt8ThscB1TGxsc8B4JUdg==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -74,7 +74,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.0.3_svelte@3.55.1+vite@4.1.4
       astro: 3.0.0
       svelte: 3.55.1
-      svelte2tsx: 0.5.23_l6gh7invo235md22ird7wlz7xq
+      svelte2tsx: 0.5.23_y6dna42avybrizx6briiyrajjq
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1355,7 +1355,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /chownr/1.1.4:
@@ -1751,8 +1751,8 @@ packages:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
     dev: false
 
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents/2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -3013,7 +3013,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /rollup/3.28.1:
@@ -3021,7 +3021,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /run-parallel/1.2.0:
@@ -3270,7 +3270,7 @@ packages:
     engines: {node: '>= 8'}
     dev: false
 
-  /svelte2tsx/0.5.23_l6gh7invo235md22ird7wlz7xq:
+  /svelte2tsx/0.5.23_y6dna42avybrizx6briiyrajjq:
     resolution: {integrity: sha512-jYFnugTQRFmUpvLXPQrKzVYcW5ErT+0QCxg027Zx9BuvYefMZFuoBSTDYe7viPEFGrPPiLgT2m7f5n9khE7f7Q==}
     peerDependencies:
       svelte: ^3.24
@@ -3279,7 +3279,7 @@ packages:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
       svelte: 3.55.1
-      typescript: 5.0.2
+      typescript: 5.3.3
     dev: false
 
   /tar-fs/2.1.1:
@@ -3369,9 +3369,9 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /typescript/5.0.2:
-    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
-    engines: {node: '>=12.20'}
+  /typescript/5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: false
 
@@ -3527,7 +3527,7 @@ packages:
       resolve: 1.22.1
       rollup: 3.17.3
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /vite/4.4.9:
@@ -3562,7 +3562,7 @@ packages:
       postcss: 8.4.29
       rollup: 3.28.1
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /vitefu/0.2.4_vite@4.1.4:
