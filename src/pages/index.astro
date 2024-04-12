@@ -1,15 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Greet from "../components/Greet.svelte";
+import {Greet} from "../components/Greet.tsx";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout>
 	<main>
 		<div class="row">
 			<a href="https://tauri.app" target="_blank">
 				<img src="/tauri.svg" class="logo tauri" alt="Tauri logo" />
 			</a>
-			<a href="https://astro.build" ,target="_blank">
+			<a href="https://astro.build" target="_blank">
 				<img
 					src="/astro-dark.svg"
 					class="logo astro dark-mode-only"
@@ -36,14 +36,12 @@ import Greet from "../components/Greet.svelte";
 			+
 			<a
 				href="https://github.com/rust-lang/rust-analyzer"
-				,target="_blank"
+				target="_blank"
 			>
 				rust-analyzer
 			</a>
 		</p>
-		<div class="row">
-			<Greet client:visible />
-		</div>
+		<Greet client:visible />
 	</main>
 </Layout>
 
