@@ -18,7 +18,7 @@ tauri-build = { version = "2.0.0-beta", features = [] }
 tauri = { version = "2.0.0-beta", features = [] }
 tauri-plugin-shell = "2.0.0-beta"
 serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+serde_json = "1.0.116"
 
 [profile.release]
 panic = "abort" # Strip expensive panic clean-up logic
