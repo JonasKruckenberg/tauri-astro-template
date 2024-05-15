@@ -11,7 +11,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.10",
+    "@astrojs/check": "^0.7.0",
     "@astrojs/solid-js": "^4.1.0",
     "@playform/compress": "^0.0.3",
     "@playform/inline": "^0.0.2",
