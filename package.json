@@ -13,7 +13,7 @@
   "dependencies": {
     "@astrojs/check": "^0.5.10",
     "@astrojs/solid-js": "^4.1.0",
-    "@playform/compress": "^0.0.3",
+    "@playform/compress": "^0.0.13",
     "@playform/inline": "^0.0.2",
     "@tauri-apps/api": ">=2.0.0-beta.0",
     "@tauri-apps/cli": ">=2.0.0-beta.0",
