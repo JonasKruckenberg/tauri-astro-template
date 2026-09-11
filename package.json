@@ -17,7 +17,7 @@
     "@playform/inline": "^0.0.2",
     "@tauri-apps/api": ">=2.0.0-beta.0",
     "@tauri-apps/cli": ">=2.0.0-beta.0",
-    "astro": "^4.6.0",
+    "astro": "^7.2.8",
     "solid-js": "^1.8.16",
     "typescript": "^5.4.5"
   }
